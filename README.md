@@ -53,8 +53,22 @@
    cd shop-frontend && npm install
    ```
 3. Create a `.env` file in the root (see `.env.example` for required variables).
-4. Start the backend and frontend servers.
-5. Access the app in your browser.
+4. **Ensure MongoDB is running and accessible at the URI you provide in your `.env` file.**
+5. Start the backend and frontend servers in separate terminals:
+   - **Backend:**
+     ```sh
+     npm start
+     # or
+     npm run dev
+     ```
+   - **Frontend:**
+     ```sh
+     cd shop-frontend
+     npm start
+     # or
+     npm run dev
+     ```
+6. Access the app in your browser (usually at `http://localhost:3000`).
 
 ---
 
